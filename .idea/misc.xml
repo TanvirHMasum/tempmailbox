@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable-v24/ic_close_black.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/bg_circle_primary_light.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/bg_ractangle_rounded_active.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/bg_ractangle_rounded_inactive.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/bg_rounded_border_edittext.xml" value="0.290625" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/button_solid_rounded.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_available_mail.xml" value="0.12962962962962962" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_create_account.xml" value="0.12962962962962962" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_drawer.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_home.xml" value="0.12962962962962962" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_keyboard_backspace.xml" value="0.25" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12962962962962962" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_login.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_login_round.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_send_mail.xml" value="0.12962962962962962" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/drawable/text_background.xml" value="0.290625" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/activity_home.xml" value="0.15806159420289856" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/activity_sign_in_up.xml" value="0.13323201621073963" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/app_bar_dash_board.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/bottom_bar.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/content_dash_board.xml" value="0.13323201621073963" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/dialog_internet_connection.xml" value="0.13148148148148148" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/dialog_loading.xml" value="0.23385416666666667" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_account.xml" value="0.27447916666666666" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_create_acc.xml" value="0.4" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_home.xml" value="0.23385416666666667" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_login.xml" value="0.13323201621073963" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_send_mail.xml" value="0.27447916666666666" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/inbox_mail.xml" value="0.13323201621073963" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/layout_sidebar.xml" value="0.13323201621073963" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Zassignment/MailTempBox/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorHint">@color/textColorSecondary
+        </item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="TabNotSelected">
+        <item name="android:layout_width">@dimen/_35sdp</item>
+        <item name="android:layout_height">@dimen/_35sdp</item>
+        <item name="android:padding">@dimen/spacing_standard</item>
+    </style>
+
+    <style name="TextInputEditTextStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_45sdp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/bg_rounded_border_edittext</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextInputLayoutStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <style name="SidebarLabel">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="fontPath">@string/font_semibold</item>-->
+    </style>
+
+    <style name="SidebarLabel.SidebarOption">
+        <item name="android:drawablePadding">@dimen/spacing_standard</item>
+        <item name="android:paddingTop">@dimen/spacing_middle</item>
+        <item name="android:paddingBottom">@dimen/spacing_middle</item>
+        <item name="android:paddingStart">@dimen/_20sdp</item>
+        <item name="android:paddingEnd">@dimen/_26sdp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

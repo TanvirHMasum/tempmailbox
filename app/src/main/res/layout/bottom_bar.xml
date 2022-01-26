@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_bottom_bar"
+        android:scaleType="centerCrop"
+        app:tint="@color/background_color_2"
+        android:contentDescription="@string/icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:id="@+id/llHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivHome"
+                style="@style/TabNotSelected"
+                app:srcCompat="@drawable/ic_home"
+                android:contentDescription="@string/icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCreateAcc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCreateAcc"
+                style="@style/TabNotSelected"
+                app:srcCompat="@drawable/ic_create_account"
+                android:contentDescription="@string/icon" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <include layout="@layout/inbox_mail" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llSendMail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivSendMail"
+                style="@style/TabNotSelected"
+                app:srcCompat="@drawable/ic_send_mail"
+                android:contentDescription="@string/icon" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llAccount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivAccount"
+                style="@style/TabNotSelected"
+                app:srcCompat="@drawable/ic_login"
+                android:contentDescription="@string/icon" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

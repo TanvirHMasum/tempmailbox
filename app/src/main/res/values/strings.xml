@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MailBox</string>
+    <string name="mail_box">Mail Box</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="error_permission_required">Location Permission Required</string>
+    <string name="dialog_title">Confirmation</string>
+    <string name="yes_text">YES</string>
+    <string name="no_text">NO</string>
+    <string name="ok_text">OK</string>
+    <string name="icon">icon</string>
+
+    <string name="domain">Domain</string>
+    <string name="domain_name">sinaite.net</string>
+
+    <string name="inbox_mail">Inbox</string>
+    <string name="account">Account</string>
+
+    <string name="create_account">Create Account</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <color name="editText_background">#F1F1F1</color>
+
+    <string name="logout_confirmation_text">Are you want to logout?</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="try_again">Try Again</string>
+    <string name="settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="error_field_required">Field Required</string>
+    <string name="mailbox_login">MailBox Login</string>
+    <string name="write_your_message_here">Write your message here</string>
+    <string name="send">Send</string>
+    <string name="to">To</string>
+    <string name="text">Text</string>
+    <string name="subject">Subject</string>
+    <string name="active_account">Active Account</string>
+</resources>
